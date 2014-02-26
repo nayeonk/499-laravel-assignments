@@ -4,8 +4,6 @@
     <title>DVD Search</title>
 </head>
 <body>
-<?php //dd($genres); ?>
-<?php //PHPINFO(); ?>
 <form method="GET" action="/dvds">
     <h1>DVD Search</h1>
     <div>
