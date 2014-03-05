@@ -16,6 +16,9 @@
 			"app/tests/TestCase.php"
 		]
 	},
+    "psr-0": {
+        "ITP": "./app"
+    },
 	"scripts": {
 		"post-install-cmd": [
 			"php artisan clear-compiled",
