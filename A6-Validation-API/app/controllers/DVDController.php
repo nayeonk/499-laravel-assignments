@@ -48,23 +48,33 @@ class DVDController extends BaseController {
     }
 
     public function insertDVD() {
-        $dvd_title = Input::get ('dvd_title');
-        $genre_id = Input::get('genre');
-        $rating_id = Input::get('rating');
-        $format_id = Input::get('format');
-        $label_id = Input::get('label');
-        $sound_id = Input::get('sound');
+        $validation = DVD::validate(Input::all());
 
-        $dvd = new DVD();
+        if($validation->passes()) {
+            $dvd_title = Input::get ('dvd_title');
+            $genre_id = Input::get('genre');
+            $rating_id = Input::get('rating');
+            $format_id = Input::get('format');
+            $label_id = Input::get('label');
+            $sound_id = Input::get('sound');
 
-        $dvd->title = $dvd_title;
-        $dvd->genre_id = $genre_id;
-        $dvd->rating_id = $rating_id;
-        $dvd->format_id = $format_id;
-        $dvd->label_id = $label_id;
-        $dvd->sound_id = $sound_id;
-        $dvd->save();
+            $dvd = new DVD();
 
-        return Redirect::to('dvds/create')->with('success', 'The DVD was added successfully!');
+            $dvd->title = $dvd_title;
+            $dvd->genre_id = $genre_id;
+            $dvd->rating_id = $rating_id;
+            $dvd->format_id = $format_id;
+            $dvd->label_id = $label_id;
+            $dvd->sound_id = $sound_id;
+            $dvd->save();
+
+            return Redirect::to('dvds/create')
+                ->with('success', 'The DVD was added successfully!');
+        }
+        //$messages = $validation->messages();
+        //dd($messages->first('genre'));
+        return Redirect::to('dvds/create')
+            ->withErrors($validation)
+            ->withInput();
     }
 }

@@ -44,7 +44,6 @@ class DVD extends Eloquent{
 
         if($title) {
             $dvds->where('title', 'LIKE', "%$title%");
-
         }
 
         if($genre_id != 'all') {

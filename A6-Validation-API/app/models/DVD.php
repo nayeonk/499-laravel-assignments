@@ -18,6 +18,16 @@ class DVD extends Eloquent{
 //
 //        return $dvds;
     }
+    public static function validate($input) {
+        return Validator::make($input, [
+            'dvd_title' => 'required|alpha_num|min:3',
+            'genre' => 'required|integer',
+            'rating' => 'required|integer',
+            'sound' => 'required|integer',
+            'label' => 'required|integer',
+            'format' => 'required|integer'
+        ]);
+    }
 
     public function genre() {
         return $this->belongsTo('genre');
