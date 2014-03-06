@@ -35,25 +35,7 @@
       <file leaf-file-name="MovieController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/controllers/MovieController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="10" selection-start="699" selection-end="699" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="561">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movies-list.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/views/movies/movies-list.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.18053098" vertical-offset="0" max-vertical-offset="565">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/A6-Validation-API/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="36" selection-start="350" selection-end="350" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="765">
+            <state line="12" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -62,8 +44,19 @@
       <file leaf-file-name="RottenTomatoesSearch.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/ITP/API/RottenTomatoesSearch.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="34" selection-start="103" selection-end="308" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
+            <state line="11" column="23" selection-start="385" selection-end="385" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movies-list.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/views/movies/movies-list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="17" selection-start="990" selection-end="990" vertical-scroll-proportion="0.7214022" vertical-offset="204" max-vertical-offset="833">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +82,7 @@
       <file leaf-file-name="search.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/views/dvds/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="8" selection-start="865" selection-end="903" vertical-scroll-proportion="-16.0" vertical-offset="128" max-vertical-offset="714">
+            <state line="17" column="40" selection-start="362" selection-end="362" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
@@ -115,9 +108,9 @@
         <option value="$PROJECT_DIR$/A6-Validation-API/app/controllers/DVDController.php" />
         <option value="$PROJECT_DIR$/A6-Validation-API/app/views/movies/search.php" />
         <option value="$PROJECT_DIR$/A6-Validation-API/app/routes.php" />
-        <option value="$PROJECT_DIR$/A6-Validation-API/app/ITP/API/RottenTomatoesSearch.php" />
         <option value="$PROJECT_DIR$/A6-Validation-API/composer.json" />
         <option value="$PROJECT_DIR$/A6-Validation-API/app/controllers/MovieController.php" />
+        <option value="$PROJECT_DIR$/A6-Validation-API/app/ITP/API/RottenTomatoesSearch.php" />
         <option value="$PROJECT_DIR$/A6-Validation-API/app/views/movies/movies-list.php" />
       </list>
     </option>
@@ -362,14 +355,14 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25755286" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -436,9 +429,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/views/dvds/search.php">
+    <entry file="file://$PROJECT_DIR$/A4-DVD-search/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="865" selection-end="903" vertical-scroll-proportion="-16.0" vertical-offset="128" max-vertical-offset="714">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/models/DVD.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="41" selection-start="855" selection-end="855" vertical-scroll-proportion="0.6619469" vertical-offset="0" max-vertical-offset="1207">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A6-Validation-API/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="400" selection-end="400" vertical-scroll-proportion="-9.807693" vertical-offset="51" max-vertical-offset="782">
           <folding />
         </state>
       </provider>
@@ -457,30 +464,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/A4-DVD-search/composer.json">
+    <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/views/dvds/search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/models/DVD.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="41" selection-start="855" selection-end="855" vertical-scroll-proportion="0.6619469" vertical-offset="0" max-vertical-offset="1207">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A6-Validation-API/composer.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="36" selection-start="350" selection-end="350" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="765">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/ITP/API/RottenTomatoesSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="34" selection-start="103" selection-end="308" vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="289">
+        <state line="17" column="40" selection-start="362" selection-end="362" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="714">
           <folding />
         </state>
       </provider>
@@ -492,17 +478,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/ITP/API/RottenTomatoesSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="23" selection-start="385" selection-end="385" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/controllers/MovieController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="10" selection-start="699" selection-end="699" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="561">
+        <state line="12" column="0" selection-start="345" selection-end="345" vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="459">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/A6-Validation-API/app/views/movies/movies-list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="238" selection-end="238" vertical-scroll-proportion="0.18053098" vertical-offset="0" max-vertical-offset="565">
-          <folding />
+        <state line="35" column="17" selection-start="990" selection-end="990" vertical-scroll-proportion="0.7214022" vertical-offset="204" max-vertical-offset="833">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
